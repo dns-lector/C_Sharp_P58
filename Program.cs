@@ -11,9 +11,11 @@ namespace C_Sharp_P58            // простори імен групують �
             Console.InputEncoding  = Encoding.UTF8;
 
             Console.WriteLine("Платформа Microsoft .NET та мова програмування C#");
-            
-            new Intro.VarsTypes().Run();  // видаляти об'єкти немає потреби,
+
+            // new Intro.VarsTypes().Run();  // видаляти об'єкти немає потреби,
             // за це відповідає окремий модуль платформи - GC Garbage Collector
+            // new Intro.Arrays().Run();
+            new Intro.Strings().Run();
         }
     }
 }
