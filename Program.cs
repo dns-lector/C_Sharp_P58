@@ -15,7 +15,9 @@ namespace C_Sharp_P58            // простори імен групують �
             // new Intro.VarsTypes().Run();  // видаляти об'єкти немає потреби,
             // за це відповідає окремий модуль платформи - GC Garbage Collector
             // new Intro.Arrays().Run();
-            new Intro.Strings().Run();
+            // new Intro.Strings().Run();
+            // new Types.Classes().Demo();
+            new Types.Pract1().Start();
         }
     }
 }
